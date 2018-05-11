@@ -1,0 +1,31 @@
+#create_create_div{
+	height: 60px;
+	background:#f1f1f1
+	
+}
+h1{
+	display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+ .hd-title {
+    font-size: 24px;
+    font-style: normal;
+    line-height: 60px;
+    color: #30a6f5;
+    margin-left: 2%;
+}
+  label{
+  	 font-size: 22px;
+    font-weight: bold;
+    color: #30a6f5;
+    line-height: 2;
+    width: 200px;
+    text-align: right;
+  }
+   
+

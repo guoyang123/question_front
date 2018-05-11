@@ -1,0 +1,17 @@
+.icon{
+	    margin: 0 6px 0 0;
+        display: inline-block;
+        vertical-align: middle;
+}
+.create-icon {
+    width: 15px;
+    height: 15px;
+    margin-right: 6px;
+    margin-top: -2px;
+    background: url(../img/create_15.png) no-repeat center;
+}
+
+#index_create_div>a{
+	color: white;
+	text-decoration: none;
+}

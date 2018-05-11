@@ -1,0 +1,218 @@
+
+.desginnew_parent_div{
+	width: 80%;
+	margin: 0px auto;
+}
+.designnew_finish_div{
+	background: #888;
+	height: 60px;
+}
+
+
+a.sumitbutton, a.sumitbutton:visited {
+    background: #f17819;
+    color: #ffffff !important;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 2%;
+    height: 30px;
+    line-height: 30px;
+    padding-right: 5px;
+    text-decoration: none;
+    vertical-align: middle;
+    padding: 0 10px 0 15px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+#topnav{
+	margin-top: 10px;
+}
+#topnav ul{
+	list-style: none;
+	background: #30a6f5;
+	height: 42px;
+	/*width: 996px;*/
+}
+#topnav ul li{
+	display: inline-block;
+}
+#topnav a{
+	text-decoration: none;
+	color: white;
+    display: block;
+    font-size: 14px;
+    cursor: pointer;
+    color: #FFF;
+    height: 30px;
+  
+    line-height: 30px;
+    text-align: left;
+    border-right: 1px solid #0072bc;
+    margin-top: 5px;
+
+}
+#topnav a:hover{
+	background: white;
+	color: #0056B3;
+}
+
+
+.design-qtype {
+    height: 20px;
+    width: 23px;
+    margin: 0 3px 0 5px;
+}
+.design-icon {
+    background-image:url(../img/icoall.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    height: 16px;
+    width: 17px;
+    margin: 0 3px 0 0;
+}
+.design-radio {
+    background-position: -356px -66px;
+}
+.design-check {
+    background-position: -357px -99px;
+}
+.design-text {
+    background-position: -355px -132px;
+}
+
+
+.surveryhead{
+	width: 1000px;
+	height: 100px;
+	margin: 0px auto;
+	
+	border: 2px solid rgb(255, 255, 255); 
+	margin-top: 18px; 
+	
+	 cursor: pointer; 
+	 padding-top: 10px; 
+	 padding-bottom: 10px;
+}
+.surveryhead:hover{
+	border: 2px solid rgb(251, 181, 83); 
+}
+.surveryhead h1{
+	font-size: 24px !important;
+    font-weight: bold;
+    color: #f53d05;
+    vertical-align: middle;
+    margin: 0;
+    padding: 15px 0;
+    line-height: 24px;
+    text-align: center;
+}
+
+/* 创建问题*/
+.div_question {
+    margin: 5px 0 0;
+    outline: none;
+    padding: 8px;
+    border: 1px solid #fff;
+}
+.div_question_onclick {
+    border: 2px solid #66CAFF;
+    padding: 4px;
+}
+
+.inputtext {
+	display: block;
+    border: solid 1px #cdcdcd;
+    padding: 3px;
+    vertical-align: middle;
+   margin: 0px auto;
+}
+
+.div_ins_question {
+    padding-top: 1px;
+    padding-left: 20px;
+    clear: both;
+    background-color: #f1f1f1;
+    margin-top: 10px;
+}
+.div_title_attr_question {
+    background: none repeat scroll 0 0 #eff9fe;
+    margin: 10px 0;
+    border: 0;
+    padding-top: 15px;
+    font-size: 14px;
+}
+
+.spanLeft {
+   /* float: left;*/
+}
+
+input.submitbutton {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    border: 0;
+    cursor: pointer;
+    background: #f17819;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0 15px;
+    overflow: visible;
+}
+input.submitbutton:hover{
+	background: #fda420;
+}
+
+.spanRight {
+   /* float: right;*/
+}
+
+.stuff {
+    font-size: 12px;
+    /*FLOAT: left;*/
+    height: 23px;
+    line-height: 23px;
+}
+.stuff a{
+	color: #6d6e71;
+	text-decoration: none;
+}
+.stuff a:hover{
+	color: #f90;
+	
+}
+dl, dt, dd, ul, li, ol, p, form, img {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border: none;
+}
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+.design-finish {
+    background-position: -49px -43px;
+}
+
+.design-icon {
+    background-image: url(../img/icoall.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    height: 16px;
+    width: 17px;
+    margin: 0 3px 0 0;
+}
