@@ -1,5 +1,29 @@
 
 
+/**当页面加载完成*/
+$(function(){
+	
+	//获取当前页面的url
+	var _url=window.location.href;
+	var _qno=GetQueryString("qno");
+	var _title=GetQueryString("qtitle");
+	if(_title!=null){
+		$("#qtitle").text(_title);
+	}
+	if(_qno!=null){
+		$("<input hidden='hidden' id='_qno' value='"+_qno+"'>").appendTo($("body"));
+	}
+	
+});
+
+
+function GetQueryString(name)
+{
+     var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+     var r = window.location.search.substr(1).match(reg);
+     if(r!=null)return  unescape(r[2]); return null;
+}
+
 //点击完成编辑按钮
 function _finish(){
 	
@@ -20,10 +44,15 @@ function _finish(){
 			//填空题
 			que.qtype="gapfill";
 			que.title=$("#"+_title_id).text();
+		     que.qno=$("#_qno").val();//问卷编号
 			ques[i-1]=que;
+			
 			
 		}
 	}
+	
+	
+			
 	
 	//将js数组转成字符串
 	var str=JSON.stringify(ques);
